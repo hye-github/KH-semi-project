@@ -569,7 +569,7 @@
 								}
 							});
 						}
-						// 기록 차트 작성 함수 
+						// 기록 차트 작성 함수
 						function setRecordChart(recentRecord) {
 							let recordCtx = document.getElementById('recordChart').getContext('2d');
 							let arrDate = [];
@@ -692,10 +692,10 @@
                                 options: { responsive: false, indexAxis: 'y', scales: { y: { beginAtZero: true } } }
                             });
                         }
-						
+
 						// weight change chart
 					</script>
-					
+
 					<c:choose>
 						<c:when test="${empty newWeight}">
 							<script>
@@ -703,7 +703,7 @@
 								let weightChart = new Chart(weightCtx, {
 									type: 'bar',
 									data: {
-										labels: ['1/1','1/1','1/1','1/1','1/1','1/1'], 
+										labels: ['1/1','1/1','1/1','1/1','1/1','1/1'],
 										datasets: [{
 											label: '# weight change',
 											data: [0,0,0,0,0,0],
@@ -741,20 +741,20 @@
 									type: 'bar',
 									data: {
 										labels: [
-											'<fmt:formatDate value="${newWeight[5].exr_date}" pattern="MM/dd" />', 
-											'<fmt:formatDate value="${newWeight[4].exr_date}" pattern="MM/dd" />', 
-											'<fmt:formatDate value="${newWeight[3].exr_date}" pattern="MM/dd" />', 
-											'<fmt:formatDate value="${newWeight[2].exr_date}" pattern="MM/dd" />', 
-											'<fmt:formatDate value="${newWeight[1].exr_date}" pattern="MM/dd" />', 
-											'<fmt:formatDate value="${newWeight[0].exr_date}" pattern="MM/dd" />'], 
+											'<fmt:formatDate value="${newWeight[5].exr_date}" pattern="MM/dd" />',
+											'<fmt:formatDate value="${newWeight[4].exr_date}" pattern="MM/dd" />',
+											'<fmt:formatDate value="${newWeight[3].exr_date}" pattern="MM/dd" />',
+											'<fmt:formatDate value="${newWeight[2].exr_date}" pattern="MM/dd" />',
+											'<fmt:formatDate value="${newWeight[1].exr_date}" pattern="MM/dd" />',
+											'<fmt:formatDate value="${newWeight[0].exr_date}" pattern="MM/dd" />'],
 										datasets: [{
 											label: '# weight change',
 											data: [
-												${newWeight[5].inbody_weight}, 
-												${newWeight[4].inbody_weight}, 
-												${newWeight[3].inbody_weight}, 
-												${newWeight[2].inbody_weight}, 
-												${newWeight[1].inbody_weight}, 
+												${newWeight[5].inbody_weight},
+												${newWeight[4].inbody_weight},
+												${newWeight[3].inbody_weight},
+												${newWeight[2].inbody_weight},
+												${newWeight[1].inbody_weight},
 												${newWeight[0].inbody_weight}
 												],
 											backgroundColor: ['rgba(255, 99, 132, 0.2)',
@@ -784,8 +784,8 @@
 							</script>
 						</c:otherwise>
 					</c:choose>
-					
-					
+
+
 				</main>
 
 				<%@ include file="/layout/footer.jsp" %>
