@@ -17,12 +17,12 @@
 - **개발기간:** 2022.10.16. ~ 2022.11.16.
 - **플랫폼:** WebApp
 - **개발인원:** 6명
-- 개발환경
+- **개발환경**
   - **Back-End** - JDK11, JDBC, OracleDB(ojdbc8)
   - **Front-End** - HTML5, CSS, JavaScript, jQuery, Ajax, Jsp
   - **Infra** - AWS EC2(Windows), tomcat 8.5, Route 53, Cafe24(DNS)
   - **API, 라이브러리** - Kakao API(map), Chart.js, Sweetalert2, Owl Carousel, Bootstrap
-- 협업 툴
+- **협업 툴**
   - Notion, Git, Github desktop, Sourcetree, ERD Cloud
   
 # 2. 기획, 관리
