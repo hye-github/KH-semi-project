@@ -1,6 +1,6 @@
 # 프로젝트 명: Fitneeds
 ## 프로젝트 개요 : 국내의 헬스장을 검색하고 리뷰하기 위한 웹사이트
-## 프로젝트 PPT : [상세 PPT LINK](https://docs.google.com/presentation/d/1xKxYKvy8pWd5LdQqfScoInCB34KEEAeM/edit#slide=id.p1)
+## 프로젝트 PPT : [상세 PPT LINK](https://docs.google.com/presentation/d/1xKxYKvy8pWd5LdQqfScoInCB34KEEAeM/edit?usp=sharing&ouid=111780926031687358017&rtpof=true&sd=true)
 
 <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcK4Drc%2FbtrWqDOPlNh%2FHpQkHRu3grH1kHF1bSdds0%2Fimg.png">
 
