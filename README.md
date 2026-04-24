@@ -5,6 +5,8 @@
 
 ## 프로젝트 PPT : [상세 PPT LINK](https://docs.google.com/presentation/d/1xKxYKvy8pWd5LdQqfScoInCB34KEEAeM/edit?usp=sharing&ouid=111780926031687358017&rtpof=true&sd=true)
 
+## 프로젝트 회고록 : [BLOG LINK](https://mdtodev.tistory.com/122)
+
 # 간략소개
 - **개발기간:** 2022.10.16. ~ 2022.11.16.
 - **플랫폼:** WebApp
